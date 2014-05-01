@@ -1,0 +1,30 @@
+<!-- From: file:/Users/okadaakihito/Documents/workspace/LifeCycle/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.lifecycle">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.lifecycle.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_next" android:name="com.example.lifecycle.NextActivity">
+        </activity>
+        <activity android:label="@string/title_activity_base" android:name="com.example.lifecycle.BaseActivity">
+        </activity>
+        <activity android:label="@string/title_activity_scan" android:name="com.example.lifecycle.ScanActivity">
+        </activity>
+        <activity android:label="@string/title_activity_information" android:name="com.example.lifecycle.InformationActivity">
+        </activity>
+        <activity android:label="@string/title_activity_other" android:name="com.example.lifecycle.OtherActivity">
+        </activity>
+        <activity android:label="@string/title_activity_mypage" android:name="com.example.lifecycle.MypageActivity">
+        </activity>
+    </application>
+
+</manifest>

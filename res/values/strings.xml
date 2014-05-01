@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LifeCycle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="Item1">Menu1</string>
+    <string name="Item2">Menu2</string>
+    <string name="Item3">Menu3</string>
+    <string name="scan">スキャン</string>
+    <string name="mypage">Myページ</string>
+    <string name="information">お知らせ</string>
+    <string name="other">その他</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_scan">バーコードスキャン</string>
+    <string name="title_activity_information">お知らせ</string>
+    <string name="title_activity_other">その他</string>
+    <string name="title_activity_mypage">Myページ</string>
+    <string name="mypage_url">"http://www.yahoo.co.jp/"</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string-array name="tab_labels">
+		<item>スキャン</item>
+		<item>Myページ</item>
+		<item>お知らせ</item>
+		<item>その他</item>
+	</string-array>
+	    <string-array name="tab_ids">
+		<item>scan</item>
+		<item>mypage</item>
+		<item>information</item>
+		<item>other</item>
+	</string-array>
+
+</resources>

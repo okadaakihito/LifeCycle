@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="WorkspaceAppcompat_v7_5Unspecified.aar" >
+        <source path="/Users/okadaakihito/Documents/workspace/LifeCycle/build/exploded-bundles/WorkspaceAppcompat_v7_5Unspecified.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/okadaakihito/Documents/workspace/LifeCycle/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/okadaakihito/Documents/workspace/LifeCycle/build-types/debug/assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:orientation="horizontal" >
+
+	<!-- 画面下部に固定で表示されるレイアウト -->
+	<FrameLayout
+	 android:layout_weight="1"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:orientation="horizontal" >
+		<ImageView
+		 android:src="@drawable/bt_tab_menu"
+		 android:adjustViewBounds="true"
+		 android:scaleType="fitXY"
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"
+		 android:onClick="loadScanner" />
+		<TextView
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_gravity="center|center_vertical"
+		 android:clickable="false"
+		 android:textSize="12sp"
+		 android:textColor="#000000"
+		 android:text="@string/scan" />
+	 </FrameLayout>
+	<FrameLayout
+	 android:layout_weight="1"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:orientation="horizontal" >
+		<ImageView
+		 android:src="@drawable/bt_tab_menu"
+		 android:adjustViewBounds="true"
+		 android:scaleType="fitXY"
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"
+		 android:onClick="loadMypage" />
+		<TextView
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_gravity="center|center_vertical"
+		 android:clickable="false"
+		 android:textSize="12sp"
+		 android:textColor="#000000"
+		 android:text="@string/mypage" />
+	 </FrameLayout>
+	<FrameLayout
+	 android:layout_weight="1"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:orientation="horizontal" >
+		<ImageView
+		 android:src="@drawable/bt_tab_menu"
+		 android:adjustViewBounds="true"
+		 android:scaleType="fitXY"
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"
+		 android:onClick="loadInformation" />
+		<TextView
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_gravity="center|center_vertical"
+		 android:clickable="false"
+		 android:textSize="12sp"
+		 android:textColor="#000000"
+		 android:text="@string/information" />
+	 </FrameLayout>
+	<FrameLayout
+	 android:layout_weight="1"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:orientation="horizontal" >
+		<ImageView
+		 android:src="@drawable/bt_tab_menu"
+		 android:adjustViewBounds="true"
+		 android:scaleType="fitXY"
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"
+		 android:onClick="loadOther" />
+		<TextView
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_gravity="center|center_vertical"
+		 android:clickable="false"
+		 android:textSize="12sp"
+		 android:textColor="#000000"
+		 android:text="@string/other" />
+	 </FrameLayout>
+</LinearLayout>
